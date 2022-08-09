@@ -1,0 +1,42 @@
+header{
+    padding: 20px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h3-all{
+    color: var(--dark);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main-nav h3{
+    z-index: 2;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+    z-index: 2;
+}
+
+.main-nav li{
+    padding: 0 20px;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: var(--btn);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s ease-in;
+}
+
+.main-nav a:hover{
+    border-bottom: 2px solid var(--dark);
+    /*transform: scale(0.98);*/
+}

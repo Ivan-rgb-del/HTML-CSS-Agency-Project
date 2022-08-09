@@ -1,0 +1,51 @@
+.services{
+    padding: 60px 0;
+}
+
+.services h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.services p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.grid{
+    padding: 40px 0;
+}
+
+.grid-box{
+    background: radial-gradient(var(--clr-inner, rgb(194, 191, 191)), var(--clr-outer, #f2f2f2));
+}
+
+.grid-all{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 20px;
+}
+
+.grid-box h3{
+    font-size: 25px;
+}
+
+.grid-box .grid-img{
+    max-width: 100px;
+}
+
+.grid .grid-box{
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.grid .grid-box:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.grid-back{
+    --clr-inner: white;
+    --clr-outer: rgb(159, 59, 184);
+}

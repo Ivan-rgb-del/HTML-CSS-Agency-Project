@@ -1,0 +1,50 @@
+.work{
+    padding: 50px 0;
+}
+
+.work-all{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.work-box{
+    position: relative;
+}
+
+.work-box img{
+    width: 350px;
+    height: 350px;
+}
+
+.work-box .action{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 250ms ease-in-out;
+}
+
+.work-box .action:hover{
+    opacity: 1;
+}
+
+.work-box .action a{
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: 250ms ease-in-out;
+}
+
+.action a:hover{
+    transform: scale(1.1);
+}
